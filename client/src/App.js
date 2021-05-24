@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/players" exact component={Players} />
+          <Route path="/" exact component={Players} />
           <Route path="/teams" component={Teams} />
         </Switch>
       </Router>
