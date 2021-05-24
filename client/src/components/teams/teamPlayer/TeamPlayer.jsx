@@ -1,11 +1,18 @@
 import React from "react";
 import "./_TeamPlayer.scss";
+// const playerImage = require("../player.png");
+import playerImage from"../../../images/player.png"
 const TeamPlayer = (props) => {
   const { name, position, nation } = props.teamPlayer;
   return (
     <div className="team-player-container">
       <div className="teamPlayer">
-        <div className="image"></div>
+        <div
+          className="image"
+          style={{
+            backgroundImage: `url(${playerImage})`
+          }}
+        ></div>
         <span className="name text">
           <span className="title">Name:</span> {name}
         </span>

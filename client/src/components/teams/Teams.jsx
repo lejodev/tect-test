@@ -14,7 +14,7 @@ const Teams = () => {
   const [input, setInput] = useState("");
   const pageRef = useRef(page);
   const inputRef = useRef("");
-  const url = "http://localhost:3080/api/v1/team";
+  const url = "/api/v1/team";
 
   const getPage = (currentPage) => {
     fetch(url, {

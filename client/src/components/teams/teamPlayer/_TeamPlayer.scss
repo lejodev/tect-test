@@ -1,3 +1,4 @@
+
 .teamPlayer {
   margin: 0.6rem;
   box-sizing: border-box;
@@ -13,15 +14,14 @@
     height: 100%;
     width: 12vh;
     grid-area: image;
-    background-image: url("https://library.kissclipart.com/20180906/wkw/kissclipart-user-icon-png-clipart-user-profile-computer-icons-94f08bfdb73bc68b.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     border-radius: 50%;
   }
-  // .text {
-  //   justify-self: start;
-  // }
+  .text {
+    justify-self: start;
+  }
   .name {
     grid-area: name;
     .title {

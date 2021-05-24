@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 
 const Players = () => {
   useEffect(() => {
-    fetch(`http://localhost:3080/api/v1/players/?order=asc&page=${page}`)
+    fetch(`/api/v1/players/?order=asc&page=${page}`)
       .then((resp) => {
         console.log("resp", page);
         return resp.json();
@@ -20,9 +20,8 @@ const Players = () => {
   }, []);
 
   let getPage = (currentPage) => {
-    fetch(`http://localhost:3080/api/v1/players/?order=asc&page=${currentPage}`)
+    fetch(`/api/v1/players/?order=asc&page=${currentPage}`)
       .then((resp) => {
-        console.log("resp", resp);
         return resp.json();
       })
       .then((resp) => {

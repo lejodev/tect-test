@@ -22,7 +22,6 @@ router.post("/team", async (req, res) => {
     .catch((err) => {
       res.status(400).json({ message: "no data" });
     });
-  console.log(">ZXCDGFDGFD");
 });
 
 router.get("/players", (req, res) => {
