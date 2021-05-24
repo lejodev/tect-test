@@ -9,4 +9,4 @@ Clonar el proyecto en la máquina en local. Una vez en el terminal (carpeta raiz
 
 
 # Proyecto funcionando
-[Cuemby full stack test](https://run.pstmn.io/button.svg)](https://cuemby-full-stack-test.herokuapp.com)
+[Cuemby full stack test](https://cuemby-full-stack-test.herokuapp.com)
