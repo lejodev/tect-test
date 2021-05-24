@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <h6 className="title">FIFA 21 API</h6>
       <nav className="links">
-        <Link to="/players" className="playersLink">
+        <Link to="/" className="playersLink">
           Players
         </Link>
         <Link to="/teams" className="teamsLink">
