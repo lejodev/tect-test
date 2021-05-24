@@ -1,0 +1,31 @@
+.players {
+  height: 90vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  .players-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    height: 80vh;
+    box-sizing: border-box;
+  }
+  .pageButtons {
+    height: 10vh;
+    display: flex;
+    .button {
+      box-sizing: border-box;
+      height: 100%;
+      width: 10vh;
+      margin: 0 0.7rem 0 0.7rem;
+      padding: 1rem;
+      border-radius: 50%;
+    }
+    .divider {
+      border-left: 2px solid #000;
+      size: 3rem;
+      margin: 0.7rem 0 0.7rem 0;
+    }
+  }
+}

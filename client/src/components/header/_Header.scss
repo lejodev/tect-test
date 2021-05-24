@@ -1,0 +1,28 @@
+.header {
+  height: 10vh;
+  background-color: cadetblue;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+  .title {
+    border-top: 3px solid #123;
+    border-bottom: 3px solid #123;
+    margin: 0;
+  }
+  .links {
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    .playersLink, .teamsLink {
+      text-decoration: none;
+      font-size: large;
+      color: #000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      &:visited {
+        text-decoration: none;
+      }
+    }
+  }
+}
